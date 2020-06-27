@@ -1,2 +1,2 @@
 module.exports.Api = require('./Api')
-module.exports.Const = require('./const')
+module.exports.Const = require('./const/index.js')

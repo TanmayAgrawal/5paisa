@@ -1,2 +1,2 @@
-module.exports.Api = require('./api/Api')
-module.exports.Const = require('./api/const')
+module.exports.api = require('./api/index.js')
+module.exports.authenticate = require('./api/authenticate.js')

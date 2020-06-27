@@ -23,8 +23,11 @@ module.exports = {
     },
     userPositions: {
       requestCode: '5PNPNWV1',
-      url:
-        'https://Openapi.5paisa.com/VendorsAPI/Service1.svc/V1/NetPositionNetWise'
+      url: 'https://Openapi.5paisa.com/VendorsAPI/Service1.svc/V1/NetPositionNetWise'
+    },
+    marketFeeds: {
+      requestCode: '',
+      url: 'wss://websocket.5paisa.com/TTWebSocket/api/chat?Value1='+this.clientCode
     }
   },
   auth: {

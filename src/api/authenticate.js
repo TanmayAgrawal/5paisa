@@ -20,7 +20,7 @@
  *
  */
 
-const axios = require('axios')
+const { default: axios } = require('axios')
 const CryptoJS = require('crypto-js')
 const config = require('../config.js')
 

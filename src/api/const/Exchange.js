@@ -1,5 +1,3 @@
-module.exports = {
-  BSE: 'B',
-  MCX: 'M',
-  NSE: 'N'
-}
+export const BSE = 'B';
+export const MCX = 'M';
+export const NSE = 'N';
