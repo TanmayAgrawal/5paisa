@@ -30,6 +30,16 @@ module.exports = {
       url: 'wss://websocket.5paisa.com/TTWebSocket/api/chat?Value1='+this.clientCode
     }
   },
+  
+  clientEmail : '',
+  password : '',
+  clientPassword : '',
+  clientDob : 0,
+  appName : '',
+  key : '',
+  userId : '',
+  orderChannel : 'WEB',
+  
   auth: {
     cookie: ''
   },

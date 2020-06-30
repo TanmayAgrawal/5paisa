@@ -39,4 +39,7 @@ module.exports = async () => {
     console.log('ERROR')
     console.log(error)
   }
+  finally {
+    return response.data.body;
+  }
 }
