@@ -1,2 +1,6 @@
-module.exports.api = require('./api/index.js')
-module.exports.authenticate = require('./api/authenticate.js')
+import React from 'react';
+import ReactDOM from 'react-dom';
+import AppRouter from './routers/AppRouter';
+import './styles/styles.scss'
+
+ReactDOM.render(<AppRouter/>, document.getElementById('root'));

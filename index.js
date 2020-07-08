@@ -1,5 +1,5 @@
-const index = require('./src/index.js');
-const config = require('./src/config.js');
+const index = require('./utils/index.js');
+const config = require('./utils/config.js');
 
 const authenticate  = index.authenticate;
 const marketfeed = index.api.Api.marketfeed;
